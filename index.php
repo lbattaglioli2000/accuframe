@@ -121,7 +121,7 @@
                               <i class="fa fa-circle fa-stack-2x"></i>
                               <i class="fa fa-exclamation fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h2>Fewer Errors</h2>
+                        <h2>Fewer Errors Git is cool</h2>
                         <p>With <i>AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> you get unparalleled quality control and accuracy at the framing stage that is easily acquired by a labor force and doesn't require advanced carpentry skills.</p>
                         <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                     </div>
