@@ -13,7 +13,8 @@
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>AccuFrame</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>AccuFrame&reg; Energy Seal</title>
         <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <!-- Latest compiled and minified CSS -->
@@ -51,11 +52,11 @@
                     <li data-target="#myCarousel" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner" role="listbox">
-                    <div class="item active"> <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+                    <div class="item active"> <img class="first-slide" src="/media/img/2015-10-15 11.37.58.jpg" alt="First slide">
                         <div class="container">
                             <div class="carousel-caption">
-                                <h1>AccuFrame Energy Seal</h1>
-                                <p>Want more information on our product, AccuFrame Energy Seal?</p>
+                                <h1>AccuFrame<sup><small style="color: white;">&reg;</small></sup> Energy Seal</h1>
+                                <p>Want more information on our product, AccuFrame<sup><small style="color: white;">&reg;</small></sup> Energy Seal?</p>
                                 <p><a class="btn btn-lg btn-primary" href="#" data-toggle="popover" data-title="Heads up!" data-content="This link doesn't go anywhere yet! This site is still being developed! Stay tuned for more information!" data-placement="top" tabindex="0" data-trigger="focus">Learn more</a></p>
                                 <script>
                                     $(document).ready(function () {
@@ -65,20 +66,20 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item"> <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+                    <div class="item"> <img class="second-slide" src="/media/img/IMG_20151102_141942.jpg" alt="Second slide">
                         <div class="container">
                             <div class="carousel-caption">
-                                <h1>AccuFrame Video</h1>
+                                <h1>AccuFrame<sup><small style="color: white;">&reg;</small></sup> Energy Seal Video</h1>
                                 <p>Looking for a video to explain the process of installation? Look no further!</p>
                                 <p><a type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Watch the video</a></p>
                             </div>
                         </div>
                     </div>
-                    <div class="item"> <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+                    <div class="item"> <img class="third-slide" src="/media/img/IMG_20151102_150059.jpg" alt="Third slide">
                         <div class="container">
                             <div class="carousel-caption">
-                                <h1>Who uses AccuFrame?</h1>
-                                <p>Learn about the various companies that use AccuFrame</p>
+                                <h1>Who uses AccuFrame<sup><small style="color: white;">&reg;</small></sup> Energy Seal?</h1>
+                                <p>Learn about the various companies that use AccuFrame<sup><small style="color: white;">&reg;</small></sup> Energy Seal?</p>
                                 <p><a class="btn btn-lg btn-primary" href="#" data-toggle="popover" title="Heads up!" data-content="This link doesn't go anywhere yet! This site is still being developed! Stay tuned for more information!" data-placement="top" tabindex="0" data-trigger="focus">Learn more</a></p>
                                 <script>
                                     $(document).ready(function () {
@@ -103,7 +104,7 @@
                         <div class="modal-body">
                             <!-- 16:9 aspect ratio -->
                             <div class="embed-responsive embed-responsive-16by9">
-                                <video class="embed-responsive-item" src="media/AccuFrame%20video.m4v" controls></video>
+                                <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/202858160?portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                             </div>
                         </div>
                         <div class="modal-footer">
@@ -115,58 +116,75 @@
             <div class="container marketing">
                 <!-- Three columns of text below the carousel -->
                 <div class="row">
-                    <div class="col-lg-4"> <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                        <h2>Heading</h2>
-                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                    <div class="col-lg-4"> 
+                        <span class="fa-stack fa-5x">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-exclamation fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h2>Fewer Errors</h2>
+                        <p>With <i>AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> you get unparalleled quality control and accuracy at the framing stage that is easily acquired by a labor force and doesn't require advanced carpentry skills.</p>
                         <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                     </div>
                     <!-- /.col-lg-4 -->
-                    <div class="col-lg-4"> <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                        <h2>Heading</h2>
-                        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                    <div class="col-lg-4">
+                        <span class="fa-stack fa-5x">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-clock-o fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h2>Faster</h2>
+                        <p><i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> saves you time as well as money. Fifteen percent or more in reduced framing cycles translates to immediate return on investment, while adding greater accuracy and quality control accelerating your building success.</p>
                         <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                     </div>
                     <!-- /.col-lg-4 -->
-                    <div class="col-lg-4"> <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                        <h2>Heading</h2>
-                        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                    <div class="col-lg-4">
+                        <span class="fa-stack fa-5x">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h2>Energy Performance</h2>
+                        <p><i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> helps the environment by dictating energy efficient framing methods on-site, consequently, homeowners will decrease energy consumption throughout the life cycle of their home.</p>
                         <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                     </div>
-                    <!-- /.col-lg-4 -->
                 </div>
                 <!-- /.row -->
+                
                 <!-- START THE FEATURETTES -->
                 <hr class="featurette-divider">
                 <div class="row featurette">
                     <div class="col-md-7">
-                        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                        <h2 class="featurette-heading">Build with less errors. <span class="text-muted">Add something catchy here.</span></h2>
+                        <p class="lead">Explain, in depth, what this means. Go more in depth than the text above relating to building with less errors</p>
                     </div>
-                    <div class="col-md-5"> <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image"> </div>
+                    <div class="col-md-5"> <img class="featurette-image img-responsive center-block" src="/media/img/home builder.jpg" alt="Generic placeholder image"> </div>
                 </div>
                 <hr class="featurette-divider">
                 <div class="row featurette">
                     <div class="col-md-7 col-md-push-5">
-                        <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+                        <h2 class="featurette-heading">Build faster.</h2>
                         <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
                     </div>
                     <div class="col-md-5 col-md-pull-7"> <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image"> </div>
                 </div>
                 <hr class="featurette-divider">
                 <div class="row featurette">
-                    <div class="col-md-7">
-                        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+                    <div class="col-md-5">
+                        <h2 class="featurette-heading">And lastly, build with energy performance. <span class="text-muted">Checkmate.</span></h2>
                         <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
                     </div>
-                    <div class="col-md-5"> <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image"> </div>
+                    <div class="col-md-5">
+                        <blockquote class="pull-right">
+                            <p>Your product offers a solution to a critical air sealing step for all builders. Its benefits are realized almost immediately- through lower heating and cooling costs and even more importantly, a more comfortable home for its occupants.</p>
+                            <footer>Ryan McCoon at <cite title="Source Title">Endura Homes</cite></footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-md-2">
+                        <img class="featurette-image img-responsive pull-right" src="/media/img/ryan.jpg">
+                    </div>
                 </div>
                 <hr class="featurette-divider">
-                <!-- /END THE FEATURETTES -->
-                <!-- FOOTER -->
                 <footer>
-                    <?php include("includes/foooter.php"); ?>
+                    <?php include("includes/footer.php"); ?>
                 </footer>
             </div>
     </body>
-
     </html>
