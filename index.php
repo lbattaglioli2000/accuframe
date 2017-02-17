@@ -25,8 +25,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <!-- Custom styles for this template -->
-        <link href="css/main.css" rel="stylesheet"> 
-    </head>
+        <link href="css/main.css" rel="stylesheet"> </head>
     <style type="text/css">
         .popover-title {
             color: #000000 !important;
@@ -116,8 +115,7 @@
             <div class="container marketing">
                 <!-- Three columns of text below the carousel -->
                 <div class="row">
-                    <div class="col-lg-4"> 
-                        <span class="fa-stack fa-5x">
+                    <div class="col-lg-4"> <span class="fa-stack fa-5x">
                               <i class="fa fa-circle fa-stack-2x"></i>
                               <i class="fa fa-exclamation fa-stack-1x fa-inverse"></i>
                         </span>
@@ -126,8 +124,7 @@
                         <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                     </div>
                     <!-- /.col-lg-4 -->
-                    <div class="col-lg-4">
-                        <span class="fa-stack fa-5x">
+                    <div class="col-lg-4"> <span class="fa-stack fa-5x">
                               <i class="fa fa-circle fa-stack-2x"></i>
                               <i class="fa fa-clock-o fa-stack-1x fa-inverse"></i>
                         </span>
@@ -136,8 +133,7 @@
                         <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                     </div>
                     <!-- /.col-lg-4 -->
-                    <div class="col-lg-4">
-                        <span class="fa-stack fa-5x">
+                    <div class="col-lg-4"> <span class="fa-stack fa-5x">
                               <i class="fa fa-circle fa-stack-2x"></i>
                               <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
                         </span>
@@ -147,7 +143,6 @@
                     </div>
                 </div>
                 <!-- /.row -->
-                
                 <!-- START THE FEATURETTES -->
                 <hr class="featurette-divider">
                 <div class="row featurette">
@@ -167,18 +162,50 @@
                 </div>
                 <hr class="featurette-divider">
                 <div class="row featurette">
-                    <div class="col-md-5">
+                    <div class="col-md-6">
                         <h2 class="featurette-heading">And lastly, build with energy performance. <span class="text-muted">Checkmate.</span></h2>
                         <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
                     </div>
-                    <div class="col-md-5">
-                        <blockquote class="pull-right">
-                            <p>Your product offers a solution to a critical air sealing step for all builders. Its benefits are realized almost immediately- through lower heating and cooling costs and even more importantly, a more comfortable home for its occupants.</p>
-                            <footer>Ryan McCoon at <cite title="Source Title">Endura Homes</cite></footer>
-                        </blockquote>
-                    </div>
-                    <div class="col-md-2">
-                        <img class="featurette-image img-responsive pull-right" src="/media/img/ryan.jpg">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-sm-7">
+                                <blockquote class="pull-right">
+                                    <p>Your product offers a solution to a critical air sealing step for all builders. Its benefits are realized almost immediately- through lower heating and cooling costs and even more importantly, a more comfortable home for its occupants.</p>
+                                    <footer>Ryan McCoon at <cite title="Source Title">Endura Homes</cite></footer>
+                                </blockquote>
+                            </div>
+                            <div class="col-md-4"> <img class="featurette-image img-responsive pull-right" src="/media/img/ryan.jpg"> </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2>Performance Data</h2>
+                                <p>Write something meaningful here about the data represented in the table below. Help the customer to connect with it and understand it.</p>
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-bordered">
+                                        <thead class="thead-default">
+                                            <tr>
+                                                <th>Column heading</th>
+                                                <th>Another heading</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <?php
+                                for($i = 0; $i < 5; $i++){
+                                    $random = rand();
+                                    $random2 = rand();
+                                    echo "
+                                        <tr>
+                                            <td>$random</td>
+                                            <td>$random2</td>
+                                        </tr>
+                                    ";
+                                }
+                            ?>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <hr class="featurette-divider">
@@ -187,4 +214,5 @@
                 </footer>
             </div>
     </body>
+
     </html>
