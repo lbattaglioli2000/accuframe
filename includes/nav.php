@@ -1,7 +1,3 @@
-<?php
-    session_start();
-?>
-
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -12,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.php">AccuFrame<sup><small>&reg;</small></sup> Energy Seal</a>
+      <a class="navbar-brand" href="/index.php">AccuFrame<sup><small>&reg;</small></sup> Energy Seal</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -25,7 +21,7 @@
                 }
             ?>
          >
-              <a href="index.php">Home</a>
+              <a href="/index.php">Home</a>
         </li>
         <li
             <?php
@@ -34,7 +30,7 @@
                 }
             ?>
         >
-            <a href="coming-soon.php">About</a>
+            <a href="/coming-soon/index.php">About</a>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact us <span class="caret"></span></a>

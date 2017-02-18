@@ -1,6 +1,6 @@
 <?php
     session_start();
-    $_SESSION["currentPage"] = "about";
+    $_SESSION["currentPage"] = "comingSoon";
 ?>
 
   <!DOCTYPE html>
@@ -19,10 +19,10 @@
   </head>
 
   <body>
-    <?php include('includes/nav.php'); ?>
+    <?php include('../includes/nav.php'); ?>
     <div class="jumbotron">
       <div class="container">
-        <h1>Coming soon.</h1>
+        <h1>Coming soon...</h1>
       </div>
     </div>
     <div class="container">
