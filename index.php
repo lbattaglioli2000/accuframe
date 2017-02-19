@@ -115,7 +115,7 @@
             <div class="container marketing">
                 <!-- Three columns of text below the carousel -->
                 <div class="row">
-                    <div class="col-lg-4"> <span class="fa-stack fa-5x">
+                    <div class="col-lg-3"> <span class="fa-stack fa-5x">
                               <i class="fa fa-circle fa-stack-2x"></i>
                               <i class="fa fa-exclamation fa-stack-1x fa-inverse"></i>
                         </span>
@@ -124,7 +124,7 @@
                         <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                     </div>
                     <!-- /.col-lg-4 -->
-                    <div class="col-lg-4"> <span class="fa-stack fa-5x">
+                    <div class="col-lg-3"> <span class="fa-stack fa-5x">
                               <i class="fa fa-circle fa-stack-2x"></i>
                               <i class="fa fa-clock-o fa-stack-1x fa-inverse"></i>
                         </span>
@@ -133,12 +133,20 @@
                         <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                     </div>
                     <!-- /.col-lg-4 -->
-                    <div class="col-lg-4"> <span class="fa-stack fa-5x">
+                    <div class="col-lg-3"> <span class="fa-stack fa-5x">
                               <i class="fa fa-circle fa-stack-2x"></i>
                               <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
                         </span>
                         <h2>Energy Performance</h2>
                         <p><i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> helps the environment by dictating energy efficient framing methods on-site, consequently, homeowners will decrease energy consumption throughout the life cycle of their home.</p>
+                        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                    </div>
+                    <div class="col-lg-3"> <span class="fa-stack fa-5x">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h2>Unnamed Box</h2>
+                        <p><i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> is super cool. This will be filled in later...</p>
                         <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                     </div>
                 </div>
