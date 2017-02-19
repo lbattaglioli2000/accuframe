@@ -186,7 +186,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <h2>Performance Data</h2>
+                                <h3>Performance Data</h3>
                                 <p>Write something meaningful here about the data represented in the table below. Help the customer to connect with it and understand it.</p>
                                 <div class="table-responsive">
                                     <table class="table table-striped table-bordered">
