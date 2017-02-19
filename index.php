@@ -143,7 +143,7 @@
                     </div>
                     <div class="col-lg-3"> <span class="fa-stack fa-5x">
                               <i class="fa fa-circle fa-stack-2x"></i>
-                              <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
+                              <i class="fa fa-server fa-stack-1x fa-inverse"></i>
                         </span>
                         <h2>Unnamed Box</h2>
                         <p><i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> is super cool. This will be filled in later...</p>
@@ -214,7 +214,14 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                        <div class="row featurette">
+                            <div class="col-md-7 col-md-push-5">
+                                <h2 class="featurette-heading">Unnamed paragraph.</h2>
+                                <p class="lead">This will be replaced later on.... Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                            </div>
+                            <div class="col-md-5 col-md-pull-7"> <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image"> </div>
+                        </div>
+                        <hr class="featurette-divider"> </div>
                 </div>
                 <hr class="featurette-divider">
                 <footer>
