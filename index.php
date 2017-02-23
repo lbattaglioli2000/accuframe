@@ -40,9 +40,7 @@
     </style>
 
     <body>
-        <?php include("/includes/nav.php"); ?>
-            <!-- Carousel
-    ================================================== -->
+        <?php include("includes/nav.php"); ?>
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -115,115 +113,74 @@
             <div class="container marketing">
                 <!-- Three columns of text below the carousel -->
                 <div class="row">
-                    <div class="col-lg-3"> <span class="fa-stack fa-5x">
+                    <div class="col-lg-4"> <span class="fa-stack fa-5x">
                               <i class="fa fa-circle fa-stack-2x"></i>
-                              <i class="fa fa-exclamation fa-stack-1x fa-inverse"></i>
+                              <i class="fa fa-gavel fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h2>Fewer Errors</h2>
+                        <h2>Builders</h2>
                         <p>With <i>AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> you get unparalleled quality control and accuracy at the framing stage that is easily acquired by a labor force and doesn't require advanced carpentry skills.</p>
-                        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                        <p><a class="btn btn-default" href="#builders" role="button">View details &raquo;</a></p>
                     </div>
                     <!-- /.col-lg-4 -->
-                    <div class="col-lg-3"> <span class="fa-stack fa-5x">
+                    <div class="col-lg-4"> <span class="fa-stack fa-5x">
                               <i class="fa fa-circle fa-stack-2x"></i>
-                              <i class="fa fa-clock-o fa-stack-1x fa-inverse"></i>
+                              <i class="fa fa-info fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h2>Faster</h2>
-                        <p><i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> saves you time as well as money. Fifteen percent or more in reduced framing cycles translates to immediate return on investment, while adding greater accuracy and quality control accelerating your building success.</p>
-                        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                        <h2>Specifications</h2>
+                        <p><i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> helps the environment by dictating energy efficient framing methods on-site, consequently, homeowners will decrease energy consumption throughout the life cycle of their home.</p>
+                        <p><a class="btn btn-default" href="#specs" role="button">View details &raquo;</a></p>
                     </div>
                     <!-- /.col-lg-4 -->
-                    <div class="col-lg-3"> <span class="fa-stack fa-5x">
+                    <div class="col-lg-4"> <span class="fa-stack fa-5x">
                               <i class="fa fa-circle fa-stack-2x"></i>
-                              <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
+                              <i class="fa fa-bar-chart fa-stack-1x fa-inverse"></i>
                         </span>
                         <h2>Energy Performance</h2>
-                        <p><i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> helps the environment by dictating energy efficient framing methods on-site, consequently, homeowners will decrease energy consumption throughout the life cycle of their home.</p>
-                        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-                    </div>
-                    <div class="col-lg-3"> <span class="fa-stack fa-5x">
-                              <i class="fa fa-circle fa-stack-2x"></i>
-                              <i class="fa fa-server fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h2>Unnamed Box</h2>
-                        <p><i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> is super cool. This will be filled in later...</p>
-                        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                        <p><i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> saves you time as well as money. Fifteen percent or more in reduced framing cycles translates to immediate return on investment, while adding greater accuracy and quality control accelerating your building success.</p>
+                        <p><a class="btn btn-default" href="#performance" role="button">View details &raquo;</a></p>
                     </div>
                 </div>
                 <!-- /.row -->
                 <!-- START THE FEATURETTES -->
-                <hr class="featurette-divider">
+                <hr class="featurette-divider" id="builders">
                 <div class="row featurette">
                     <div class="col-md-7">
-                        <h2 class="featurette-heading">Build with less errors. <span class="text-muted">Add something catchy here.</span></h2>
-                        <p class="lead">Explain, in depth, what this means. Go more in depth than the text above relating to building with less errors</p>
+                        <h2 class="featurette-heading">Builders. <span class="text-muted">Add something catchy here.</span></h2>
+                        <p class="lead">Explain, in depth, what this means. Go more in depth than the text above relating to builders.</p>
+                        <a class="btn btn-lg btn-success">Learn more</a>
                     </div>
                     <div class="col-md-5"> <img class="featurette-image img-responsive center-block" src="/media/img/home builder.jpg" alt="Generic placeholder image"> </div>
                 </div>
-                <hr class="featurette-divider">
+                <hr class="featurette-divider" id="specs">
                 <div class="row featurette">
                     <div class="col-md-7 col-md-push-5">
-                        <h2 class="featurette-heading">Build faster.</h2>
+                        <h2 class="featurette-heading">Specifications.</h2>
                         <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                        <a class="btn btn-lg btn-success">Learn more</a>
                     </div>
                     <div class="col-md-5 col-md-pull-7"> <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image"> </div>
                 </div>
-                <hr class="featurette-divider">
+                <hr class="featurette-divider" id="performance">
                 <div class="row featurette">
                     <div class="col-md-6">
                         <h2 class="featurette-heading">And lastly, build with energy performance. <span class="text-muted">Checkmate.</span></h2>
                         <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                        <a class="btn btn-lg btn-success">Learn more</a>
                     </div>
                     <div class="col-md-6">
                         <div class="row">
                             <div class="col-sm-7">
                                 <blockquote class="pull-right">
-                                    <p>Your product offers a solution to a critical air sealing step for all builders. Its benefits are realized almost immediately- through lower heating and cooling costs and even more importantly, a more comfortable home for its occupants.</p>
+                                    <p class="lead">Your product offers a solution to a critical air sealing step for all builders. Its benefits are realized almost immediately- through lower heating and cooling costs and even more importantly, a more comfortable home for its occupants.</p>
                                     <footer>Ryan McCoon at <cite title="Source Title">Endura Homes</cite></footer>
                                 </blockquote>
                             </div>
                             <div class="col-md-4"> <img class="featurette-image img-responsive pull-right" src="/media/img/ryan.jpg"> </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h3>Performance Data</h3>
-                                <p>Write something meaningful here about the data represented in the table below. Help the customer to connect with it and understand it.</p>
-                                <div class="table-responsive">
-                                    <table class="table table-striped table-bordered">
-                                        <thead class="thead-default">
-                                            <tr>
-                                                <th>Column heading</th>
-                                                <th>Another heading</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <?php
-                                for($i = 0; $i < 5; $i++){
-                                    $random = rand();
-                                    $random2 = rand();
-                                    echo "
-                                        <tr>
-                                            <td>$random</td>
-                                            <td>$random2</td>
-                                        </tr>
-                                    ";
-                                }
-                            ?>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row featurette">
-                            <div class="col-md-7 col-md-push-5">
-                                <h2 class="featurette-heading">Unnamed paragraph.</h2>
-                                <p class="lead">This will be replaced later on.... Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                            </div>
-                            <div class="col-md-5 col-md-pull-7"> <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image"> </div>
-                        </div>
-                        <hr class="featurette-divider"> </div>
+                    </div>
                 </div>
                 <hr class="featurette-divider">
+                
                 <footer>
                     <?php include("includes/footer.php"); ?>
                 </footer>

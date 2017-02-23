@@ -35,9 +35,19 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact us <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li class="disabled"><a href="#">Contact form</a></li>
-            <li class="disabled"><a href="#">10 second survey</a></li>
-            <li class="disabled"><a href="#">Get an estimate</a></li>
+            <li 
+                <?php
+                if($_SESSION['currentPage'] === "contact"){
+                    echo "class='active'";
+                }
+            ?>
+                ><a href="/contact/form/index.php">Contact form</a></li>
+            <li <?php
+                if($_SESSION['currentPage'] === "survey"){
+                    echo "class='active'";
+                }
+            ?>
+                ><a href="/coming-soon/index.php">10 second survey</a></li>
           </ul>
         </li>
       </ul>

@@ -1,0 +1,29 @@
+<div class="table-responsive">
+                                    <table class="table table-striped table-bordered">
+                                        <thead class="thead-default">
+                                            <tr>
+                                                <th>Test Pressure (Pa)</th>
+                                                <th>Gasketed Infiltration Leakage Rate (cfm/ft)</th>
+                                                <th>Regular Infiltration Leakage Rate (cfm/ft)</th>
+                                                <th>Percent Leakage Reduction from Gasket (cfm/ft)</th>
+                                                <th>Gasketed Exfiltration Leakage Rate (cfm/ft)</th>
+                                                <th>Regular Exfiltration Leakage Rate (cfm/ft)</th>
+                                                <th>Percent Leakage Reduction from Gasket</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <?php
+                                for($i = 0; $i < 5; $i++){
+                                    $random = rand();
+                                    $random2 = rand();
+                                    echo "
+                                        <tr>
+                                            <td>$random</td>
+                                            <td>$random2</td>
+                                        </tr>
+                                    ";
+                                }
+                            ?>
+                                        </tbody>
+                                    </table>
+                                </div>
