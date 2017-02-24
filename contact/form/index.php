@@ -45,15 +45,11 @@
                 <div class="container">
                     <h1>Contact</h1> </div>
             </div>
-            <?php
-                            $action=$_REQUEST['action'];
-                            if ($action == ""){
-                        ?>
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 col-md-offset-3">
                             <div class="well well-sm">
-                                <form class="form-horizontal" method="post" enctype="multipart/form-data">
+                                <form class="form-horizontal" method="post" action="bin/contact.php">
                                     <fieldset>
                                         <!-- Name input-->
                                         <div class="form-group">
@@ -64,13 +60,19 @@
                                         </div>
                                         <!-- Email input-->
                                         <div class="form-group">
-                                            <label class="col-md-3 control-label" for="email">Your E-mail</label>
+                                            <label class="col-md-3 control-label" for="email">E-mail</label>
                                             <div class="col-md-9">
                                                 <input id="email" name="email" type="text" placeholder="Your email" class="form-control"> </div>
                                         </div>
+                                        <!-- Phone nummber input-->
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label" for="email">Phone Number</label>
+                                            <div class="col-md-9">
+                                                <input id="phone" name="email" type="text" placeholder="Your phone number" class="form-control"> </div>
+                                        </div>
                                         <!-- Message body -->
                                         <div class="form-group">
-                                            <label class="col-md-3 control-label" for="message">Your message</label>
+                                            <label class="col-md-3 control-label" for="message">Message</label>
                                             <div class="col-md-9">
                                                 <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
                                             </div>
@@ -85,27 +87,12 @@
                                 </form>
                             </div>
                         </div>
-                        <?php
-                            }else{
-                            $name = $_REQUEST['name'];
-                            $email = $_REQUEST['email'];
-                            $message = $_REQUEST['message'];
-                            if (($name=="")||($email=="")||($message==""))
-                                {
-                                echo "<div class='alert alert-danger'><b>Oh noes!</b> All fields are required, please fill <a href=\"\">the form</a> again.</div>";
-                                }
-                            else{		
-                                $from="From: $name<$email>\r\nReturn-path: $email";
-                                $subject="New Message via your contact form";
-                                mail("webmaster@accuframe.com", $subject, $message, $from);
-                                echo "<div class='alert alert-success'>Message sent! Click <a href='/index.php'>here</a> to go back home!</div>";
-                                }
-                            }  
-                        ?> </div>
-                </div>
-                <footer>
-                    <?php include("/includes/footer.php"); ?>
+                        </div>
+                        <hr>
+                        <footer>
+                    <?php include("../../includes/footer.php"); ?>
                 </footer>
+                </div>
     </body>
 
     </html>
