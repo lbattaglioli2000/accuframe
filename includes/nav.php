@@ -32,6 +32,15 @@
         >
             <a href="/coming-soon/index.php">About</a>
         </li>
+        <li
+            <?php
+                if($_SESSION['currentPage'] === "performance"){
+                    echo "class='active'";
+                }
+            ?>
+         >
+              <a href="/performance/index.php">Energy Performance</a>
+        </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact us <span class="caret"></span></a>
           <ul class="dropdown-menu">

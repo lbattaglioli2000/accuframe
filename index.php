@@ -113,6 +113,15 @@
             <div class="container marketing">
                 <!-- Three columns of text below the carousel -->
                 <div class="row">
+                    <!-- /.col-lg-4 -->
+                    <div class="col-lg-4"> <span class="fa-stack fa-5x">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-bar-chart fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h2>Energy Performance</h2>
+                        <p><i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> saves you time as well as money. Fifteen percent or more in reduced framing cycles translates to immediate return on investment, while adding greater accuracy and quality control accelerating your building success.</p>
+                        <p><a class="btn btn-default" href="#performance" role="button">View details &raquo;</a></p>
+                    </div>
                     <div class="col-lg-4"> <span class="fa-stack fa-5x">
                               <i class="fa fa-circle fa-stack-2x"></i>
                               <i class="fa fa-gavel fa-stack-1x fa-inverse"></i>
@@ -130,36 +139,9 @@
                         <p><i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> helps the environment by dictating energy efficient framing methods on-site, consequently, homeowners will decrease energy consumption throughout the life cycle of their home.</p>
                         <p><a class="btn btn-default" href="#specs" role="button">View details &raquo;</a></p>
                     </div>
-                    <!-- /.col-lg-4 -->
-                    <div class="col-lg-4"> <span class="fa-stack fa-5x">
-                              <i class="fa fa-circle fa-stack-2x"></i>
-                              <i class="fa fa-bar-chart fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h2>Energy Performance</h2>
-                        <p><i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> saves you time as well as money. Fifteen percent or more in reduced framing cycles translates to immediate return on investment, while adding greater accuracy and quality control accelerating your building success.</p>
-                        <p><a class="btn btn-default" href="#performance" role="button">View details &raquo;</a></p>
-                    </div>
                 </div>
                 <!-- /.row -->
                 <!-- START THE FEATURETTES -->
-                <hr class="featurette-divider" id="builders">
-                <div class="row featurette">
-                    <div class="col-md-7">
-                        <h2 class="featurette-heading">Builders. <span class="text-muted">Add something catchy here.</span></h2>
-                        <p class="lead">Explain, in depth, what this means. Go more in depth than the text above relating to builders.</p>
-                        <a class="btn btn-lg btn-success">Learn more</a>
-                    </div>
-                    <div class="col-md-5"> <img class="featurette-image img-responsive center-block" src="/media/img/home builder.jpg" alt="Generic placeholder image"> </div>
-                </div>
-                <hr class="featurette-divider" id="specs">
-                <div class="row featurette">
-                    <div class="col-md-7 col-md-push-5">
-                        <h2 class="featurette-heading">Specifications.</h2>
-                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                        <a class="btn btn-lg btn-success">Learn more</a>
-                    </div>
-                    <div class="col-md-5 col-md-pull-7"> <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image"> </div>
-                </div>
                 <hr class="featurette-divider" id="performance">
                 <div class="row featurette">
                     <div class="col-md-6">
@@ -178,6 +160,24 @@
                             <div class="col-md-4"> <img class="featurette-image img-responsive pull-right" src="/media/img/ryan.jpg"> </div>
                         </div>
                     </div>
+                </div>
+                <hr class="featurette-divider" id="builders">
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">Builders. <span class="text-muted">Add something catchy here.</span></h2>
+                        <p class="lead">Explain, in depth, what this means. Go more in depth than the text above relating to builders.</p>
+                        <a class="btn btn-lg btn-success">Learn more</a>
+                    </div>
+                    <div class="col-md-5"><img class="featurette-image img-responsive center-block" src="/media/img/home builder.jpg" alt="Generic placeholder image"> </div>
+                </div>
+                <hr class="featurette-divider" id="specs">
+                <div class="row featurette">
+                    <div class="col-md-7 col-md-push-5">
+                        <h2 class="featurette-heading">Specifications.</h2>
+                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                        <a class="btn btn-lg btn-success">Learn more</a>
+                    </div>
+                    <div class="col-md-5 col-md-pull-7"> <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image"> </div>
                 </div>
                 <hr class="featurette-divider">
                 
