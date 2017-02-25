@@ -45,54 +45,119 @@
                 <div class="container">
                     <h1>Contact</h1> </div>
             </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-md-offset-3">
-                            <div class="well well-sm">
-                                <form class="form-horizontal" method="post" action="bin/contact.php">
-                                    <fieldset>
-                                        <!-- Name input-->
-                                        <div class="form-group">
-                                            <input type="hidden" name="action" value="submit">
-                                            <label class="col-md-3 control-label" for="name">Name</label>
-                                            <div class="col-md-9">
-                                                <input id="name" name="name" type="text" placeholder="Your name" class="form-control"> </div>
-                                        </div>
-                                        <!-- Email input-->
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label" for="email">E-mail</label>
-                                            <div class="col-md-9">
-                                                <input id="email" name="email" type="text" placeholder="Your email" class="form-control"> </div>
-                                        </div>
-                                        <!-- Phone nummber input-->
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label" for="email">Phone Number</label>
-                                            <div class="col-md-9">
-                                                <input id="phone" name="email" type="text" placeholder="Your phone number" class="form-control"> </div>
-                                        </div>
-                                        <!-- Message body -->
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label" for="message">Message</label>
-                                            <div class="col-md-9">
-                                                <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
-                                            </div>
-                                        </div>
-                                        <!-- Form actions -->
-                                        <div class="form-group">
-                                            <div class="col-md-12 text-right">
-                                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-                                            </div>
-                                        </div>
-                                    </fieldset>
-                                </form>
-                            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="well well-sm">
+                            <form name="sentMessage" id="contactForm" novalidate="" action="bin/contact.php" method="post">
+                                <div class="control-group form-group">
+                                    <div class="controls">
+                                        <label>Full Name:</label>
+                                        <input type="text" class="form-control" id="name" required="" data-validation-required-message="Please enter your name.">
+                                        <p class="help-block"></p>
+                                    </div>
+                                </div>
+                                <div class="control-group form-group">
+                                    <div class="controls">
+                                        <label>Phone Number:</label>
+                                        <input type="tel" class="form-control" id="phone" required="" data-validation-required-message="Please enter your phone number.">
+                                        <div class="help-block"></div>
+                                    </div>
+                                </div>
+                                <div class="control-group form-group">
+                                    <div class="controls">
+                                        <label>Email Address:</label>
+                                        <input type="email" class="form-control" id="email" required="" data-validation-required-message="Please enter your email address.">
+                                        <div class="help-block"></div>
+                                    </div>
+                                </div>
+                                <div class="control-group form-group">
+                                    <div class="controls">
+                                        <label>Message:</label>
+                                        <textarea rows="10" cols="100" class="form-control" id="message" required="" data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                                        <div class="help-block"></div>
+                                    </div>
+                                </div>
+                                <div id="success"></div>
+                                <!-- For success/fail messages -->
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </form>
                         </div>
-                        </div>
-                        <hr>
-                        <footer>
+                    </div>
+                </div>
+                <hr>
+                <footer>
                     <?php include("../../includes/footer.php"); ?>
                 </footer>
-                </div>
+            </div>
     </body>
 
     </html>
+    <script>
+        /*
+          Jquery Validation using jqBootstrapValidation
+           example is taken from jqBootstrapValidation docs
+          */
+        $(function () {
+            $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
+                preventSubmit: true
+                , submitError: function ($form, event, errors) {
+                    // something to have when submit produces an error ?
+                    // Not decided if I need it yet
+                }
+                , submitSuccess: function ($form, event) {
+                    event.preventDefault(); // prevent default submit behaviour
+                    // get values from FORM
+                    var name = $("input#name").val();
+                    var phone = $("input#phone").val();
+                    var email = $("input#email").val();
+                    var message = $("textarea#message").val();
+                    var firstName = name; // For Success/Failure Message
+                    // Check for white space in name for Success/Fail message
+                    if (firstName.indexOf(' ') >= 0) {
+                        firstName = name.split(' ').slice(0, -1).join(' ');
+                    }
+                    $.ajax({
+                        url: "./bin/contact_me.php"
+                        , type: "POST"
+                        , data: {
+                            name: name
+                            , phone: phone
+                            , email: email
+                            , message: message
+                        }
+                        , cache: false
+                        , success: function () {
+                            // Success message
+                            $('#success').html("<div class='alert alert-success'>");
+                            $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;").append("</button>");
+                            $('#success > .alert-success').append("<strong>Your message has been sent. </strong>");
+                            $('#success > .alert-success').append('</div>');
+                            //clear all fields
+                            $('#contactForm').trigger("reset");
+                        }
+                        , error: function () {
+                            // Fail message
+                            $('#success').html("<div class='alert alert-danger'>");
+                            $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;").append("</button>");
+                            $('#success > .alert-danger').append("<strong>Sorry " + firstName + " it seems that my mail server is not responding...</strong> Could you please email me directly to <a href='mailto:me@example.com?Subject=Message_Me from myprogrammingblog.com;>me@example.com</a> ? Sorry for the inconvenience!");
+                            $('#success > .alert-danger').append('</div>');
+                            //clear all fields
+                            $('#contactForm').trigger("reset");
+                        }
+                    , })
+                }
+                , filter: function () {
+                    return $(this).is(":visible");
+                }
+            , });
+            $("a[data-toggle=\"tab\"]").click(function (e) {
+                e.preventDefault();
+                $(this).tab("show");
+            });
+        });
+        /*When clicking on Full hide fail/success boxes */
+        $('#name').focus(function () {
+            $('#success').html('');
+        });
+    </script>
