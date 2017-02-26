@@ -144,25 +144,25 @@
                 <!-- START THE FEATURETTES -->
                 <hr class="featurette-divider" id="performance">
                 <div class="row">
-                    <div class="col-md-6">
-                        <h2 class="featurette-heading">Energy Performance</h2>
-                        <p><i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> is an onsite solution that mitigates air leakage by incorporating a framing gasket into exterior walls resulting in 4-way sealing of lineal gaps that has been shown to reduce air infiltration by more than 75% (ASTM E283).  
+                    <div class="col-md-12">
+                        <h2 style="font-size: 50px;">Energy Performance</h2>
+                        <p class="lead"><i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> is an onsite solution that mitigates air leakage by incorporating a framing gasket into exterior walls resulting in 4-way sealing of lineal gaps that has been shown to reduce air infiltration by more than 75% (ASTM E283).  
 
 As of early 2017, nine states (with others to follow soon) require compliance with the IECC 2015 new-housing air leakage standards. This requires that all new homes, when tested at a 50 Pa pressure differential, 'shall not exceed' 5 air changes/hour (ACH) in US climate zones 1 and 2 (warmer areas) and 3 ACH in the remaining cooler zones 3-8. Homes meeting the requirements will receive a “Certificate of Occupancy” which will be necessary for sale of the structure. Because the building must be largely completed before the testing can be performed, builders get one shot at achieving the air leakage standards, if the building doesn’t pass, costly rework and retesting  must be done to insure compliance with code. Rework and retesting can be prohibitively expensive, each test alone can cost up to $500 – nearly twice the average cost per home of <i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i>!</p>
                         <a href="performance/index.php" class="btn btn-lg btn-primary">Learn more</a>
+                        <br>
                     </div>
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-sm-7">
-                                <blockquote class="pull-right">
-                                    <p class="lead">Your product offers a solution to a critical air sealing step for all builders. Its benefits are realized almost immediately- through lower heating and cooling costs and even more importantly, a more comfortable home for its occupants.</p>
-                                    <footer>Ryan McCoon at <cite title="Source Title">Endura Homes</cite></footer>
-                                </blockquote>
-                            </div>
-                            <div class="col-md-4"> <img class="featurette-image img-responsive img-circle pull-right" src="/media/img/ryan.jpg"> </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-8">
+                        <br>
+                        <blockquote class="pull-right">
+                            <p class="lead">Your product offers a solution to a critical air sealing step for all builders. Its benefits are realized almost immediately- through lower heating and cooling costs and even more importantly, a more comfortable home for its occupants.</p>
+                            <footer>Ryan McCoon at <cite title="Source Title">Endura Homes</cite></footer>
+                        </blockquote>
+                    </div>
+                            <div class="col-md-4"> <img class="featurette-image img-responsive center-block img-thumbnail" src="/media/img/ryan.jpg"> </div>
                         </div>
-                    </div>
-                </div>
                 <hr class="featurette-divider" id="builders">
                 <div class="row featurette">
                     <div class="col-md-7">

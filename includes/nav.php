@@ -1,3 +1,12 @@
+<style type="text/css">
+.navbar-brand>img {
+   max-height: 100%;
+   height: 100%;
+   width: auto;
+   margin: 0 auto;
+}
+</style>
+
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -8,7 +17,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/index.php">AccuFrame<sup><small>&reg;</small></sup> Energy Seal</a>
+      <a href="/index.php"><img style="max-height:50px; max-width:200px;" src="/media/img/logo.png"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
