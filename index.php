@@ -115,7 +115,7 @@
                 <div class="row">
                     <!-- /.col-lg-4 -->
                     <div class="col-lg-4"> <span class="fa-stack fa-5x">
-                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-circle text-primary fa-stack-2x"></i>
                               <i class="fa fa-bar-chart fa-stack-1x fa-inverse"></i>
                         </span>
                         <h2>Energy Performance</h2>
@@ -123,7 +123,7 @@
                         <p><a class="btn btn-default" href="#performance" role="button">View details &raquo;</a></p>
                     </div>
                     <div class="col-lg-4"> <span class="fa-stack fa-5x">
-                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-circle text-primary fa-stack-2x"></i>
                               <i class="fa fa-gavel fa-stack-1x fa-inverse"></i>
                         </span>
                         <h2>Builders</h2>
@@ -132,7 +132,7 @@
                     </div>
                     <!-- /.col-lg-4 -->
                     <div class="col-lg-4"> <span class="fa-stack fa-5x">
-                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-circle text-primary fa-stack-2x"></i>
                               <i class="fa fa-info fa-stack-1x fa-inverse"></i>
                         </span>
                         <h2>Specifications and Whole House Testing</h2>
