@@ -41,23 +41,14 @@
          >
               <a href="/performance/index.php">Energy Performance</a>
         </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact us <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li 
-                <?php
-                if($_SESSION['currentPage'] === "contact"){
-                    echo "class='active'";
-                }
-            ?>
-                ><a href="/contact/form/index.php">Contact form</a></li>
-            <li <?php
+        <li
+            <?php
                 if($_SESSION['currentPage'] === "survey"){
                     echo "class='active'";
                 }
             ?>
-                ><a href="/coming-soon/index.php">10 second survey</a></li>
-          </ul>
+         >
+              <a href="/survey/index.php">10 Second Survey</a>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
