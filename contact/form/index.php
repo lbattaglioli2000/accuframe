@@ -56,19 +56,22 @@
                                             <input type="hidden" name="action" value="submit">
                                             <label class="col-md-3 control-label" for="name">Name</label>
                                             <div class="col-md-9">
-                                                <input id="name" name="name" type="text" placeholder="Your name" class="form-control"> </div>
+                                                <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                                            </div>
                                         </div>
                                         <!-- Email input-->
                                         <div class="form-group">
                                             <label class="col-md-3 control-label" for="email">E-mail</label>
                                             <div class="col-md-9">
-                                                <input id="email" name="email" type="text" placeholder="Your email" class="form-control"> </div>
+                                                <input id="email" name="email" type="email" placeholder="Your email" class="form-control">
+                                            </div>
                                         </div>
                                         <!-- Phone nummber input-->
                                         <div class="form-group">
                                             <label class="col-md-3 control-label" for="email">Phone Number</label>
                                             <div class="col-md-9">
-                                                <input id="phone" name="email" type="text" placeholder="Your phone number" class="form-control"> </div>
+                                                <input id="phone" name="email" type="number" placeholder="Your phone number" class="form-control">
+                                            </div>
                                         </div>
                                         <!-- Message body -->
                                         <div class="form-group">
