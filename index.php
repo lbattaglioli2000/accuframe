@@ -53,13 +53,8 @@
                         <div class="container">
                             <div class="carousel-caption">
                                 <h1>AccuFrame<sup><small style="color: white;">&reg;</small></sup> Energy Seal</h1>
-                                <p>Want more information on our product, AccuFrame<sup><small style="color: white;">&reg;</small></sup> Energy Seal?</p>
-                                <p><a class="btn btn-lg btn-primary" href="#" data-toggle="popover" data-title="Heads up!" data-content="This link doesn't go anywhere yet! This site is still being developed! Stay tuned for more information!" data-placement="top" tabindex="0" data-trigger="focus">Learn more</a></p>
-                                <script>
-                                    $(document).ready(function () {
-                                        $('[data-toggle="popover"]').popover();
-                                    });
-                                </script>
+                                <p>Air Isolation Management - AIM-for Performance</p>
+                                <p><a class="btn btn-lg btn-primary" href="/directory/index.php">Learn more</a></p>
                             </div>
                         </div>
                     </div>
@@ -127,7 +122,7 @@
                               <i class="fa fa-gavel fa-stack-1x fa-inverse"></i>
                         </span>
                         <h2>Builders</h2>
-                        <p>replace me.</p>
+                        <p>Today's builders are struggling to meet production demands with a limited skilled-labor pool while simultaneously trying to meet new energy code mandates. The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> can help solve both problems!</p>
                         <p><a class="btn btn-default" href="#builders" role="button">View details &raquo;</a></p>
                     </div>
                     <!-- /.col-lg-4 -->
@@ -166,9 +161,16 @@ As of early 2017, nine states (with others to follow soon) require compliance wi
                 <hr class="featurette-divider" id="builders">
                 <div class="row featurette">
                     <div class="col-md-7">
-                        <h2 class="featurette-heading">Builders</h2>
-                        <p class="lead">Explain, in depth, what this means. Go more in depth than the text above relating to builders.</p>
-                        <a class="btn btn-lg btn-primary">Learn more</a>
+                        <h2 style="font-size: 50px;">Builders</h2>
+                        <p class="lead"><i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> helps solve two problems at once! <i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> method 
+                        allows builders to optimize scarce framing labor by providing workers with a template for stud placement 
+                        that also serves as an air isolation gasket once it's in place. By preprinting framing stud locations on a 
+                        pliable gasket substrate that attaches to the wall plates, workers can quickly place and nail the studs to 
+                        the plates, integrating the gasket into the frame (video link). When the exterior sheathing is attached to 
+                        the completed wall frame, the AccuFrame gasket, which runs the length of the wall plate, is compressed 
+                        between the plate and the sheathing, automatically forming another air-flow barrier. This 4-way sealing 
+                        reduces air intrusion by more than 75% (ASTM E283).</p>
+                        <a class="btn btn-lg btn-primary" href="/builders/index.php">Learn more</a>
                     </div>
                     <div class="col-md-5"><img class="featurette-image img-responsive img-thumbnail center-block" src="/media/img/home builder.jpg" alt="Generic placeholder image"> </div>
                 </div>

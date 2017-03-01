@@ -32,23 +32,47 @@
          >
               <a href="/index.php">Home</a>
         </li>
-        <li
-            <?php
-                if($_SESSION['currentPage'] === "about"){
-                    echo "class='active'";
-                }
-            ?>
-        >
-            <a href="/coming-soon/index.php">About</a>
-        </li>
-        <li
-            <?php
-                if($_SESSION['currentPage'] === "performance"){
-                    echo "class='active'";
-                }
-            ?>
-         >
-              <a href="/performance/index.php">Energy Performance</a>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Learn More <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li
+                <?php
+                    if($_SESSION['currentPage'] === "performance"){
+                        echo "class='active'";
+                    }
+                ?>
+            >
+                <a href="/performance/index.php">Energy Performance</a>
+            </li>
+            <li
+                <?php
+                    if($_SESSION['currentPage'] === "builders"){
+                        echo "class='active'";
+                    }
+                ?>
+            >
+                <a href="/builders/index.php">Builders</a>
+            </li>
+            <li
+                <?php
+                    if($_SESSION['currentPage'] === "specs"){
+                        echo "class='active'";
+                    }
+                ?>
+            >
+                <a href="/specs/index.phpf">Specifications and Whole House Testing</a>
+            </li>
+            <li role="separator" class="divider"></li>
+            <li
+                <?php
+                    if($_SESSION['currentPage'] === "about"){
+                        echo "class='active'";
+                    }
+                ?>
+            >
+                <a href="/about/index.php">About</a>
+            </li>
+          </ul>
         </li>
         <li
             <?php
