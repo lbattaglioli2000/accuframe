@@ -131,7 +131,7 @@
                               <i class="fa fa-info fa-stack-1x fa-inverse"></i>
                         </span>
                         <h2>Specifications and Whole House Testing</h2>
-                        <p>replace me.</p>
+                        <p>The AccuFrame® Energy Seal product has been the subject of several engineering tests and has been found to be a highly effective air infiltration system under test conditions.</p>
                         <p><a class="btn btn-default" href="#specs" role="button">View details &raquo;</a></p>
                     </div>
                 </div>
@@ -178,8 +178,8 @@ As of early 2017, nine states (with others to follow soon) require compliance wi
                 <div class="row featurette">
                     <div class="col-md-7">
                         <h2 class="featurette-heading">Specifications and Whole House Testing</h2>
-                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                        <a class="btn btn-lg btn-primary">Learn more</a>
+                        <p class="lead"><i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> product has been the subject of several engineering tests and has been found to be a highly effective air infiltration system under test conditions. However, the best indicator of performance is actual whole house testing using typical onsite construction methods that would be expected at a modern building site.</p>
+                        <a class="btn btn-lg btn-primary" href="/specs/index.php">Learn more</a>
                     </div>
                     <div class="col-md-5">
                         <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">

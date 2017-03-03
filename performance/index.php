@@ -38,6 +38,9 @@
           <div class="panel panel-primary">
             <div class="panel-heading">Importnant Links</div>
             <div class="panel-body">
+              <div class="alert alert-warning">
+                <p><b>Heads up!</b> These links don't go anywhere yet! Stay tuned for more information!</p>
+              </div>
               <ul>
                 <li><a href="#">ASTMe 283 Test Data</a></li>
                 <li><a href="#">Builders Information</a></li>

@@ -27,7 +27,7 @@
     </div>
     <div class="container">
       <p style="font-size: 25px;">
-        Something pretty neat is coming very soon! Stay tuned for more information. Also, if you would like to, you can subscribe to our mailing list to get up to date news regarding AccuFrame Energy Seal.
+        Something pretty neat is coming very soon! Stay tuned for more information. Also, if you would like to, you can subscribe to our mailing list to get up to date news regarding <i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i>.
       </p>
       <div class="well">
         <!-- Begin MailChimp Signup Form -->

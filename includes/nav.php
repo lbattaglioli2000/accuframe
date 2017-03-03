@@ -60,17 +60,17 @@
                     }
                 ?>
             >
-                <a href="/specs/index.phpf">Specifications and Whole House Testing</a>
+                <a href="/specs/index.php">Specifications and Whole House Testing</a>
             </li>
             <li role="separator" class="divider"></li>
             <li
                 <?php
-                    if($_SESSION['currentPage'] === "about"){
+                    if($_SESSION['currentPage'] === "testimonials"){
                         echo "class='active'";
                     }
                 ?>
             >
-                <a href="/about/index.php">About</a>
+                <a href="/coming-soon/index.php">Testimonials</a>
             </li>
           </ul>
         </li>

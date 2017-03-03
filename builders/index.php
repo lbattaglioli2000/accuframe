@@ -51,6 +51,9 @@
           <div class="panel panel-primary">
             <div class="panel-heading">Importnant Links</div>
             <div class="panel-body">
+              <div class="alert alert-warning">
+                <p><b>Heads up!</b> These links don't go anywhere yet! Stay tuned for more information!</p>
+              </div>
               <ul>
                 <li><a href="#">Energy Information</a></li>
               </ul>
