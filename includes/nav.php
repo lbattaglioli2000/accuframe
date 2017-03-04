@@ -60,17 +60,7 @@
                     }
                 ?>
             >
-                <a href="/specs/index.php">Specifications and Whole House Testing</a>
-            </li>
-            <li role="separator" class="divider"></li>
-            <li
-                <?php
-                    if($_SESSION['currentPage'] === "testimonials"){
-                        echo "class='active'";
-                    }
-                ?>
-            >
-                <a href="/coming-soon/index.php">Testimonials</a>
+                <a href="/specs/index.php">Specifications and Testimonials</a>
             </li>
           </ul>
         </li>
