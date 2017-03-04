@@ -148,16 +148,18 @@ As of early 2017, nine states (with others to follow soon) require compliance wi
                         <br>
                     </div>
                     </div>
-                    <div class="row">
-                    <div class="col-md-8">
-                        <br>
-                        <blockquote class="pull-right">
-                            <p class="lead">Your product offers a solution to a critical air sealing step for all builders. Its benefits are realized almost immediately- through lower heating and cooling costs and even more importantly, a more comfortable home for its occupants.</p>
-                            <footer>Ryan McCoon at <cite title="Source Title">Endura Homes</cite></footer>
-                        </blockquote>
-                    </div>
-                            <div class="col-md-4"> <img class="featurette-image img-responsive center-block img-thumbnail" src="/media/img/ryan.jpg"> </div>
+                    <br>
+                    <div class="row" style="padding-top: 4%; padding-left: 15%">
+                        <div class="col-md-4"> 
+                            <img class="featurette-image img-responsive center-block img-thumbnail" src="/media/img/ryan.jpg">
                         </div>
+                        <div class="col-md-7">
+                            <blockquote class="blockquote">
+                                <p class="lead">Your product offers a solution to a critical air sealing step for all builders. Its benefits are realized almost immediately- through lower heating and cooling costs and even more importantly, a more comfortable home for its occupants.</p>
+                                <footer>Ryan McCoon at <cite title="Source Title">Endura Homes</cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
                 <hr class="featurette-divider" id="builders">
                 <div class="row featurette">
                     <div class="col-md-7">
