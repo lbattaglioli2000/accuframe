@@ -21,8 +21,8 @@
   <body>
     <?php include('../includes/nav.php'); ?>
     <div class="jumbotron">
-      <div class="container">
-        <h1>Specifications and Testimonials</h1>
+      <div class="container" style="padding-top: 5%;">
+        <h1>Specifications and <br>Testimonials</h1>
       </div>
     </div>
     <div class="container">
@@ -98,7 +98,7 @@
             </blockquote>
             <h2>Testimonial from Builder</h2>
             <p>Endura Performance Homes (Traverse City, MI 49696) is a market leader in energy efficient design and construction.  Endura employed AccuFrame® Energy Seal in the recent construction of two houses. Endura used AccuFrame in addition to several other effective insulating products and achieved outstanding results in terms of air isolation measured with blower door testing at 50 pascals. In response to these results Ryan McCoon, Principal, Endura sent a testimonial. Click the button below to view it.</p>
-            <a href="../media/docs/ryan.jpg" class="btn btn-block btn-primary" target="_blank">Testimonial</a>
+            <p><a href="../media/docs/ryan.jpg" class="btn btn-block btn-primary" target="_blank">Testimonial</a></p>
 
         </div>
         <div class="col-md-4">

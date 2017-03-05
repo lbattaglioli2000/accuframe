@@ -174,7 +174,7 @@ As of early 2017, nine states (with others to follow soon) require compliance wi
                         the completed wall frame, the AccuFrame gasket, which runs the length of the wall plate, is compressed
                         between the plate and the sheathing, automatically forming another air-flow barrier. This 4-way sealing
                         reduces air intrusion by more than 75% (ASTM E283).</p>
-                        <a class="btn btn-lg btn-primary" href="/builders/index.php">Learn more</a>
+                        <p><a class="btn btn-lg btn-primary" href="/builders/index.php">Learn more</a></p>
                     </div>
                     <div class="col-md-5" style="padding-top: 10%;"><img class="featurette-image img-responsive img-thumbnail center-block" src="/media/img/zoom.jpg" alt="Generic placeholder image"> </div>
                 </div>
@@ -183,7 +183,7 @@ As of early 2017, nine states (with others to follow soon) require compliance wi
                     <div class="col-md-7">
                         <h2 class="featurette-heading">Specifications and Whole House Testing</h2>
                         <p class="lead"><i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> is a relatively new product but has undergone a substantial amount of testing in both engineering laboratories and recently in a whole house test. Results have been impressive in state agency architectural testing labs and in actual whole house construction testing.</p>
-                        <a class="btn btn-lg btn-primary" href="/specs/index.php">Learn more</a>
+                        <p><a class="btn btn-lg btn-primary" href="/specs/index.php">Learn more</a></p>
                     </div>
                     <div class="col-md-5">
                         <img class="featurette-image img-responsive img-thumbnail center-block" src="/media/img/home.jpg" alt="Home construction image">

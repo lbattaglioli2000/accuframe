@@ -21,7 +21,7 @@
   <body>
     <?php include('../includes/nav.php'); ?>
     <div class="jumbotron">
-      <div class="container">
+      <div class="container" style="padding-top: 5%;">
         <h1>Builders</h1>
       </div>
     </div>
