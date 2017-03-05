@@ -131,7 +131,7 @@
                               <i class="fa fa-info fa-stack-1x fa-inverse"></i>
                         </span>
                         <h2>Specifications and Testimonials</h2>
-                        <p>"...it appears that the AccuFrame product can provide much of the air leakage control needed for homebuilders using it in their homes to meet the tough new Air Leakage requirements of the ECCCNYS-2016."
+                        <p>"..it appears that the AccuFrame product can provide much of the air leakage control needed for homebuilders…to meet the tough new Air Leakage requirements of the ECCCNYS-2016."
                             <br><b>Michael DeWein, Strategic Program Director, Leidos</b>
                       </p>
                         <p><a class="btn btn-default" href="#specs" role="button">View details &raquo;</a></p>
@@ -166,15 +166,15 @@ As of early 2017, nine states (with others to follow soon) require compliance wi
                 <div class="row featurette">
                     <div class="col-md-7">
                         <h2 style="font-size: 50px;">Builders</h2>
-                        <p class="lead"><i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> helps solve two problems at once! <i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> method
+                        <p class="lead">The <i>AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> helps solve two problems at once! The <i>AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> method
                         allows builders to optimize scarce framing labor by providing workers with a template for stud placement
                         that also serves as an air isolation gasket once it's in place. By preprinting framing stud locations on a
                         pliable gasket substrate that attaches to the wall plates, workers can quickly place and nail the studs to
-                        the plates, integrating the gasket into the frame (video link). When the exterior sheathing is attached to
-                        the completed wall frame, the AccuFrame gasket, which runs the length of the wall plate, is compressed
+                        the plates, integrating the gasket into the frame (<a data-toggle="modal" data-target="#myModal">installation video</a>). When the exterior sheathing is attached to
+                        the completed wall frame, the <i>AccuFrame<sup>&reg;</sup></i> gasket, which runs the length of the wall plate, is compressed
                         between the plate and the sheathing, automatically forming another air-flow barrier. This 4-way sealing
                         reduces air intrusion by more than 75% (ASTM E283).</p>
-                        <p><a class="btn btn-lg btn-primary" href="/builders/index.php">Learn more</a></p>
+                        <p><a class="btn btn-lg btn-primary" href="/builders/index.php">Learn more</a> <a type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">Installation Video</a></p>
                     </div>
                     <div class="col-md-5" style="padding-top: 10%;"><img class="featurette-image img-responsive img-thumbnail center-block" src="/media/img/zoom.jpg" alt="Generic placeholder image"> </div>
                 </div>
@@ -182,7 +182,7 @@ As of early 2017, nine states (with others to follow soon) require compliance wi
                 <div class="row featurette">
                     <div class="col-md-7">
                         <h2 class="featurette-heading">Specifications and Whole House Testing</h2>
-                        <p class="lead"><i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> is a relatively new product but has undergone a substantial amount of testing in both engineering laboratories and recently in a whole house test. Results have been impressive in state agency architectural testing labs and in actual whole house construction testing.</p>
+                        <p class="lead"><i>AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> is a relatively new product but has undergone a substantial amount of testing in engineering laboratories and recently in a whole house test. Results have been impressive in state agency architectural testing labs and in actual whole house construction testing.</p>
                         <p><a class="btn btn-lg btn-primary" href="/specs/index.php">Learn more</a></p>
                     </div>
                     <div class="col-md-5">
