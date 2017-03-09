@@ -65,7 +65,7 @@
                             <div class="carousel-caption">
                                 <h1>AccuFrame<sup><small style="color: white;">&reg;</small></sup> Energy Seal Video</h1>
                                 <p>Looking for a video to explain the process of installation? Look no further!</p>
-                                <p><a type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Watch the video</a></p>
+                                <p><a type="button" class="btn btn-primary btn-lg" onclick="OpenVideo();" data-toggle="modal" data-target="#myModal" data-backdrop="static" data-keyboard="false">Watch the video</a></p>
                             </div>
                         </div>
                     </div>
@@ -93,20 +93,20 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <button type="button" class="close" onclick="CloseVideo();" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                             <h4 class="modal-title" id="myModalLabel">Video</h4> </div>
-                        <div class="modal-body">
+                        <div class="modal-body" id="yt-player">
                             <!-- 16:9 aspect ratio -->
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/202858160?portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                            </div>
+                            <div class="embed-responsive embed-responsive-16by9" id="VideoId">
+                                <!-- video added here via JS -->
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-default" onclick="CloseVideo();" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
+          </div>
             <div class="container marketing">
                 <!-- Three columns of text below the carousel -->
                 <div class="row">
@@ -172,11 +172,11 @@ As of early 2017, nine states (with others to follow soon) require compliance wi
                         allows builders to optimize scarce framing labor by providing workers with a template for stud placement
                         that also serves as an air isolation gasket once it's in place. By preprinting framing stud locations on a
                         pliable gasket substrate that attaches to the wall plates, workers can quickly place and nail the studs to
-                        the plates, integrating the gasket into the frame (<a data-toggle="modal" data-target="#myModal">installation video</a>). When the exterior sheathing is attached to
+                        the plates, integrating the gasket into the frame (<a onclick="OpenVideo();" data-toggle="modal" data-target="#myModal" data-backdrop="static" data-keyboard="false">installation video</a>). When the exterior sheathing is attached to
                         the completed wall frame, the <i>AccuFrame<sup>&reg;</sup></i> gasket, which runs the length of the wall plate, is compressed
                         between the plate and the sheathing, automatically forming another air-flow barrier. This 4-way sealing
                         reduces air intrusion by more than 75% (ASTM E283).</p>
-                        <p><a class="btn btn-lg btn-primary" href="/builders/index.php">Learn more</a> <a type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">Installation Video</a></p>
+                        <p><a class="btn btn-lg btn-primary" href="/builders/index.php">Learn more</a> <a type="button" class="btn btn-default btn-lg" onclick="OpenVideo();" data-toggle="modal" data-target="#myModal" data-backdrop="static" data-keyboard="false">Installation Video</a></p>
                     </div>
                     <div class="col-md-5" style="padding-top: 10%;"><img class="featurette-image img-responsive img-thumbnail center-block" src="/media/img/zoom.jpg" alt="Generic placeholder image"> </div>
                 </div>
@@ -198,6 +198,14 @@ As of early 2017, nine states (with others to follow soon) require compliance wi
                     <?php include("includes/footer.php"); ?>
                 </footer>
             </div>
+            <script type="text/javascript">
+            function OpenVideo(){
+              document.getElementById("VideoId").innerHTML='<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mt0ry6VQWzE?autoplay=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';;
+            };
+            function CloseVideo(){
+              document.getElementById("VideoId").innerHTML="&nbsp;";
+            };
+            </script>
     </body>
 
     </html>
