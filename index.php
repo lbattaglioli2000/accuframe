@@ -25,7 +25,9 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <!-- Custom styles for this template -->
-        <link href="css/main.css" rel="stylesheet"> </head>
+        <link href="css/main.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../media/img/favicon.ico" type="image/x-icon">
+      </head>
     <style type="text/css">
         .popover-title {
             color: #000000 !important;
@@ -114,7 +116,7 @@
                               <i class="fa fa-bar-chart fa-stack-1x fa-inverse"></i>
                         </span>
                         <h2>Energy Performance</h2>
-                        <p><i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> is a new economical innovation designed to help provide a solution to the increased energy efficiency demands required in new home construction.</p>
+                        <p><i>AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> is a new economical innovation designed to help provide a solution to the increased energy efficiency demands required in new home construction.</p>
                         <p><a class="btn btn-default" href="#performance" role="button">View details &raquo;</a></p>
                     </div>
                     <div class="col-lg-4"> <span class="fa-stack fa-5x">
@@ -122,7 +124,7 @@
                               <i class="fa fa-gavel fa-stack-1x fa-inverse"></i>
                         </span>
                         <h2>Builders</h2>
-                        <p>Today's builders are struggling to meet production demands with a limited skilled-labor pool while simultaneously trying to meet new energy code mandates. The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> can help solve both problems!</p>
+                        <p>Today's builders are struggling to meet production demands with a limited skilled-labor pool while simultaneously trying to meet new energy code mandates. <i>AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> can help solve both problems!</p>
                         <p><a class="btn btn-default" href="#builders" role="button">View details &raquo;</a></p>
                     </div>
                     <!-- /.col-lg-4 -->
@@ -166,7 +168,7 @@ As of early 2017, nine states (with others to follow soon) require compliance wi
                 <div class="row featurette">
                     <div class="col-md-7">
                         <h2 style="font-size: 50px;">Builders</h2>
-                        <p class="lead">The <i>AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> helps solve two problems at once! The <i>AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> method
+                        <p class="lead"><i>AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> helps solve two problems at once! The <i>AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> method
                         allows builders to optimize scarce framing labor by providing workers with a template for stud placement
                         that also serves as an air isolation gasket once it's in place. By preprinting framing stud locations on a
                         pliable gasket substrate that attaches to the wall plates, workers can quickly place and nail the studs to

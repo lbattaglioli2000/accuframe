@@ -29,7 +29,7 @@
       <div class="row">
         <div class="col-md-8">
           <h2>New York State Agency Testing</h2>
-          <p>Testing conducted by a NY state agency  showed that at 50 pascals (the pressure mandated in air infiltration testing leakage was reduced by a  remarkable 81%. The tests were performed by constructing two  4’x8’ test wall assemblies with or without the  AccuFrame foam gasket applied at the  top and bottom plates. Cavity insulation, interior gypsum wall board, and  exterior sheathing were otherwise identical between the two test walls. The  result summary below shows that not only was air infiltration reduced by 81% at  50 pascals but remained at this level up to 100 pascals before starting to fall  off slightly.</p>
+          <p>Testing conducted by a NY state agency showed that at 50 pascals (the pressure mandated in air infiltration testing) leakage was reduced by a remarkable 81%. The tests were performed by constructing six 4’x8’ test wall assemblies, 3 with and 3 without the <i>AccuFrame</i> foam gasket applied at the top and bottom plates. The result summary table below shows that not only was air infiltration reduced by 81% at 50 pascals but remained at this level up to 100 pascals before starting to fall off slightly.</p>
           <div class="table-responsive">
             <table class="table table-striped table-bordered">
               <thead class="thead-default">
@@ -47,7 +47,7 @@
                 <tr>
                   <td>25</td><td>0.009</td><td>0.043</td><td>79%</td><td>0.009</td><td>0.030</td><td>69%</td>
                 </tr>
-                <tr style="background: yellow;">
+                <tr style="background: #FFEB3B;">
                   <td>50</td><td>0.017</td><td>0.090</td><td>81%</td><td>0.013</td><td>0.043</td><td>70%</td>
                 </tr>
                 <tr>
@@ -65,24 +65,24 @@
               </tbody>
             </table>
           </div>
-          <p>This type of testing is of  course, not directly relatable to whole house savings due to the many other  openings present in a modern home that must be sealed by other means. However,  it should be kept in mind that the exterior wall gaps that AccuFrame seals extend around the entire house and can  amount to approximately 300 lineal feet in the average house. Because AccuFrame  is so economical a contemporary home can be built using <i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> system for  only hundreds of dollars. The low cost and air exclusion of AccuFrame allows  for use of less expensive traditional batt-type insulating methods rather than  more costly insulation options.</p>
+          <p>This type of testing is of  course, not directly relatable to whole house savings due to the many other openings present in a modern home that must be sealed by other means. However, it should be kept in mind that the exterior wall gaps that <i>AccuFrame</i> seals extend around the entire house and can amount to approximately 300 lineal feet in the average house. Because <i>AccuFrame</i> is so economical, a contemporary home can be built using the <i>AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> system for only hundreds of dollars. The low cost and air exclusion of <i>AccuFrame</i> allows for use of less expensive traditional batt-type insulating methods rather than  more costly insulation options.</p>
             <h2>Whole House Testing <small>Habitat for Humanity</small></h2>
-            <p><i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> has been the subject of several engineering tests and has been found to be a highly effective air infiltration system under test  conditions. However, the best indicator of performance is actual whole house testing using typical onsite construction methods that would be expected at a modern building site.</p>
-            <p>In a recent test, Habitat for Humanity built two small homes  (approximately 1300 sq ft each) in upstate NY, one with AccuFrame and one without.</p>
+            <p><i>AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> has been the subject of several engineering tests and has been found to be a highly effective air infiltration system under test  conditions. However, the best indicator of performance is actual whole house testing using typical onsite construction methods that would be expected at a modern building site.</p>
+            <p>In a recent test, Habitat for Humanity built two small homes (approximately 1300 sq ft each) in upstate NY, one with <i>AccuFrame</i> and one without.</p>
             <ul>
-                <li>AccuFrame Home - built with AccuFrame® Energy Seal walls and no other air sealing methods.</li>
-                <li>Benchmark Home -identical home built on the same building site to serve as the control. The benchmark home underwent an aggressive, meticulously installed silicone-caulking application to framing areas not generally sealed, to learn how AccuFrame® would perform against stringent sealing methods.</li>
+                <li><i>AccuFrame</i> Home - built with <i>AccuFrame<sup>&reg;</sup> Energy Seal</i> walls and no other air sealing methods.</li>
+                <li>Benchmark Home -identical home built on the same building site to serve as the control. The benchmark home underwent an aggressive, meticulously installed silicone-caulking application to framing areas not generally sealed, to learn how <i>AccuFrame</i> would perform against stringent sealing methods.</li>
             </ul>
             <p>Third-party blower door testing @ 50 pascals, was conducted on both homes consecutively by certified HERS rater Newport Ventures on 2/14/17.</p>
             <h2>Results</h2>
             <ul>
-                <li>The AccuFrame home @50 pascals measured 2.63 Air Changes per Hour (ACH)</li>
+                <li>The <i>AccuFrame</i> home @50 pascals measured 2.63 Air Changes per Hour (ACH)</li>
                 <li>The control home @50 pascal reached 3.81 ACH</li>
             </ul>
-            <p>In this particular study, <i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> made the difference between passing and failing the new 3 ACH @50 pascals state energy mandate. New York States new energy code in Building Zone 6 mandates new homes must test at less than 3 ACH @50 pascals to obtain a 'Certificate of Occupancy' which is necessary for sale of the home, or undergo further air sealing and retesting until they meet the standard. When considered as total air flow, the AccuFrame home showed an impressive 30.4% decrease in air intrusion over the benchmark study home.</p>
+            <p>In this particular study, <i>AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> made the difference between passing and failing the new 3 ACH @50 pascals state energy mandate. New York States new energy code in Building Zone 6 mandates new homes must test at less than 3 ACH @50 pascals to obtain a 'Certificate of Occupancy' which is necessary for sale of the home, or undergo further air sealing and retesting until they meet the standard. When considered as total air flow, the <i>AccuFrame</i> home showed an impressive 30.4% decrease in air intrusion over the benchmark study home.</p>
             <h2>Test Participant Quotes</h2>
             <blockquote class="blockquote well">
-                <p>"Based on the testing done by NYSERDA, followed by the recent Whole House Air leakage tests at the Habitat for Humanity Schenectady homes, it appears that the AccuFrame product can provide much of the air leakage control needed for homebuilders using it in their homes to meet the tough new Air Leakage requirements of the ECCCNYS-2016."</p>
+                <p>"Based on the testing done by NYSERDA, followed by the recent Whole House Air leakage tests at the Habitat for Humanity Schenectady homes, it appears that the <i>AccuFrame</i> product can provide much of the air leakage control needed for homebuilders using it in their homes to meet the tough new Air Leakage requirements of the ECCCNYS-2016."</p>
                 <footer>
                     Michael DeWein<br>
                     Strategic Program Director, Leidos<br>
@@ -97,17 +97,17 @@
                 </footer>
             </blockquote>
             <h2>Testimonial from Builder</h2>
-            <p>Endura Performance Homes (Traverse City, MI 49696) is a market leader in energy efficient design and construction.  Endura employed AccuFrame® Energy Seal in the recent construction of two houses. Endura used AccuFrame in addition to several other effective insulating products and achieved outstanding results in terms of air isolation measured with blower door testing at 50 pascals. In response to these results Ryan McCoon, Principal, Endura sent a testimonial. Click the button below to view it.</p>
+            <p>Endura Performance Homes (Traverse City, MI 49696) is a market leader in energy efficient design and construction.  Endura employed <i>AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> in the recent construction of two houses. Endura used <i>AccuFrame</i> in addition to several other effective insulating products and achieved outstanding results in terms of air isolation measured with blower door testing at 50 pascals. In response to these results Ryan McCoon, Principal, Endura sent a testimonial. Click the button below to view it.</p>
             <p><a href="../media/docs/ryan.jpg" class="btn btn-block btn-primary" target="_blank">Testimonial</a></p>
 
         </div>
         <div class="col-md-4">
           <div class="panel panel-primary">
-            <div class="panel-heading">Importnant Links</div>
+            <div class="panel-heading">Important Links</div>
             <div class="panel-body">
               <ul>
                 <li><a href="../media/docs/ryan.jpg" target="_blank">Builder Testimonial</a></li>
-                <li><a href="../media/docs/sell-sheet.pdf" target="_blank">Sell Sheet</a></li>
+                <li><a href="../media/docs/sell-sheet.pdf" target="_blank">Product Information Sheet</a></li>
               </ul>
             </div>
           </div>
