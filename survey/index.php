@@ -35,12 +35,11 @@
       <div class="row">
         <div class="col-md-12">
           <div class="alert alert-info" role="alert">
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-            <strong>Hey!</strong> If you don't mind, please fill out this survey to help us create an even better product!
+            <h2>Hey.</h2>
+            <p>If you don't mind, please fill out this survey to help us create an even better product!</p>
+            <p><button type="button" class="btn btn-lg btn-default" data-dismiss="alert" aria-label="Close">Okay!</button></p>
           </div>
-          <iframe src="https://docs.google.com/a/accuframe.com/forms/d/e/1FAIpQLSei44sBoDwG4U4cfei9QawFjToUoIApjwwu2mXO_6uF9H_82w/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+          <iframe src="https://docs.google.com/a/accuframe.com/forms/d/e/1FAIpQLSei44sBoDwG4U4cfei9QawFjToUoIApjwwu2mXO_6uF9H_82w/viewform?embedded=true" width="100%" height="1500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
         </div>
       </div>
         <footer>
