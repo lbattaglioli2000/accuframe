@@ -35,14 +35,16 @@
         <h2 style="text-align: center;">Please select one of the buttons below to learn more about <br><i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i></h2><br>
       <div class="row">
         <div class="col-md-4">
-            <a class="btn btn-primary btn-block" href="/performance/index.php">Performance</a>
+            <p><a class="btn btn-primary btn-block" href="/performance/index.php">Performance</a></p><br>
         </div>
+        <br>
         <div class="col-md-4">
-            <a class="btn btn-primary btn-block" href="/builders/index.php">Builders</a>
+            <p><a class="btn btn-primary btn-block" href="/builders/index.php">Builders</a></p><br>
         </div>
+        <br>
         <div class="col-md-4">
-            <a class="btn btn-primary btn-block" href="/specs/index.php">Specifications and Whole House Testing</a>
-        </div>
+        </p><a class="btn btn-primary btn-block" href="/specs/index.php">Specifications and Whole House Testing</a></p><br>
+      </div>
       </div>
         <footer>
             <hr>

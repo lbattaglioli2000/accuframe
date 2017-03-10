@@ -74,12 +74,7 @@
                             <div class="carousel-caption">
                                 <h1>Who uses AccuFrame<sup><small style="color: white;">&reg;</small></sup> Energy Seal?</h1>
                                 <p>Learn about the various companies that use AccuFrame<sup><small style="color: white;">&reg;</small></sup> Energy Seal?</p>
-                                <p><a class="btn btn-lg btn-primary" href="#" data-toggle="popover" title="Heads up!" data-content="This link doesn't go anywhere yet! This site is still being developed! Stay tuned for more information!" data-placement="top" tabindex="0" data-trigger="focus">Learn more</a></p>
-                                <script>
-                                    $(document).ready(function () {
-                                        $('[data-toggle="popover"]').popover();
-                                    });
-                                </script>
+                                <p><a class="btn btn-lg btn-primary" href="/specs/index.php#hfh">Learn more</a></p>
                             </div>
                         </div>
                     </div>
