@@ -71,6 +71,7 @@
               </tbody>
             </table>
           </div>
+          <p><i><b>Heads up!</b> If you're on mobile, you'll need to scroll to see the entire table!</i></p>
           <p>This type of testing is of  course, not directly relatable to whole house savings due to the many other openings present in a modern home that must be sealed by other means. However, it should be kept in mind that the exterior wall gaps that <i>AccuFrame</i> seals extend around the entire house and can amount to approximately 300 lineal feet in the average house. Because <i>AccuFrame</i> is so economical, a contemporary home can be built using the <i>AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> system for only hundreds of dollars. The low cost and air exclusion of <i id="hfh">AccuFrame</i> allows for use of less expensive traditional batt-type insulating methods rather than  more costly insulation options.</p>
           <p id="hfh"></p>
             <h2>Whole House Testing <small>Habitat for Humanity</small></h2>
