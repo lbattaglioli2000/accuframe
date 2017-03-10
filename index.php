@@ -151,11 +151,12 @@ As of early 2017, nine states (with others to follow soon) require compliance wi
                     <div class="row" style="padding-top: 4%; padding-left: 15%">
                         <div class="col-md-4">
                             <img class="featurette-image img-responsive center-block img-thumbnail" src="/media/img/ryan.jpg">
+                            <br>
                         </div>
                         <div class="col-md-7">
                             <blockquote class="blockquote">
-                                <p class="lead">Your product offers a solution to a critical air sealing step for all builders. Its benefits are realized almost immediately- through lower heating and cooling costs and even more importantly, a more comfortable home for its occupants.</p>
-                                <footer>Ryan McCoon at <cite title="Source Title"><a href="http://www.endurahomes.com/" target="_blank">Endura Homes</a></cite></footer>
+                                <p class="lead" style="font-size: 25px;">Your product offers a solution to a critical air sealing step for all builders. Its benefits are realized almost immediately- through lower heating and cooling costs and even more importantly, a more comfortable home for its occupants.</p>
+                                <footer style="font-size: 15px;">Ryan McCoon at <cite title="Source Title"><a href="http://www.endurahomes.com/" target="_blank">Endura Homes</a></cite></footer>
                             </blockquote>
                         </div>
                     </div>
