@@ -23,4 +23,4 @@ drift.load('66dfgkfk8s8x');
 </script>
 <!-- End of Async Drift Code -->
 <p class="pull-right"><a href="#">Back to top</a></p>
-<p><?php echo date("Y"); ?> AccuFrame<sup><small>&reg;</small></sup> Energy Seal &middot; Site Designed and Built by <a href="http://www.arrested-yeti.hol.es">Arrested Yeti</a></p>
+<p><?php echo date("Y"); ?> AccuFrame<sup><small>&reg;</small></sup> Energy Seal &middot; Site Designed and Built by <a href="http://www.arrested-yeti.hol.es">Arrested Yeti</a> &middot; <a href="/privacy/index.php">Privacy</a></p>
