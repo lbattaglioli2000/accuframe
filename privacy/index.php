@@ -28,7 +28,7 @@
     <?php include('../includes/nav.php'); ?>
     <div class="jumbotron">
       <div class="container" style="padding-top: 5%;">
-          <h1><b>AccuFrame.com</b> Privacy Policy</h1>
+          <h1>AccuFrame.com Privacy Policy</h1>
       </div>
     </div>
     <div class="container">

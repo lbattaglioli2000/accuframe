@@ -82,15 +82,6 @@
          >
               <a href="/survey/index.php">10 Second Survey</a>
         </li>
-        <li
-            <?php
-                if($_SESSION['currentPage'] === "contact"){
-                    echo "class='active'";
-                }
-            ?>
-         >
-              <a href="/contact/index.php">Contact us</a>
-        </li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
