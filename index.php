@@ -188,20 +188,8 @@ As of early 2017, nine states (with others to follow soon) require compliance wi
                         <br><i style="font-size: 19px;">Habitat for Humanity test home. AccuFrame in action!</i>
                     </div>
                 </div>
-                <hr class="featurette-divider">
-
-                <footer>
-                    <?php include("includes/footer.php"); ?>
-                </footer>
-            </div>
-            <script type="text/javascript">
-            function OpenVideo(){
-              document.getElementById("VideoId").innerHTML='<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mt0ry6VQWzE?autoplay=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';;
-            };
-            function CloseVideo(){
-              document.getElementById("VideoId").innerHTML="&nbsp;";
-            };
-            </script>
+                <hr class="featurette-divider" id="builders">
+                <?php include("includes/footer.php"); ?>
     </body>
 
     </html>
