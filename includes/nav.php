@@ -41,15 +41,6 @@
          >
               <a href="/index.php">Home</a>
         </li>
-        <li
-            <?php
-                if($_SESSION['currentPage'] === "blog"){
-                    echo "class='active'";
-                }
-            ?>
-         >
-              <a href="/blog/index.php">Blog</a>
-        </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Learn More <span class="caret"></span></a>
           <ul class="dropdown-menu">
