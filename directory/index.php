@@ -35,15 +35,31 @@
         <h2 style="text-align: center;">Please select one of the buttons below to learn more about <br><i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i></h2><br>
       <div class="row">
         <div class="col-md-4">
-            <p><a class="btn btn-primary btn-block" href="/performance/index.php">Performance</a></p><br>
+          <div class="thumbnail">
+            <div class="caption">
+              <h3>Performance</h3>
+              <p style="height: 230px;">To learn more about Air Isolation Management (or AIM), <i>AccuFrame<sup>&reg;</sup> Energy Seal's</i> effectiveness, and onsite manufacturing, click the button below.</p>
+              <p><a href="/performance/index.php" class="btn btn-primary btn-block btn-lg" role="button">Learn more</a></p>
+            </div>
+          </div>
         </div>
-        <br>
         <div class="col-md-4">
-            <p><a class="btn btn-primary btn-block" href="/builders/index.php">Builders</a></p><br>
+          <div class="thumbnail">
+            <div class="caption">
+              <h3>Builders</h3>
+              <p style="height: 230px;">To learn more about how effective <i>AccuFrame<sup>&reg;</sup> Energy Seal</i> is for builders, click the button below.</p>
+              <p><a href="/builders/index.php" class="btn btn-primary btn-block btn-lg" role="button">Learn more</a></p>
+            </div>
+          </div>
         </div>
-        <br>
         <div class="col-md-4">
-        </p><a class="btn btn-primary btn-block" href="/specs/index.php">Specifications and Whole House Testing</a></p><br>
+          <div class="thumbnail">
+            <div class="caption">
+              <h3>Specifications and Testimonials</h3>
+              <p style="height: 230px;">To learn more about how <i>AccuFrame<sup>&reg;</sup> Energy Seal</i> was tested, and to view the data and results from those test, click the button below.</p>
+              <p><a href="/specs/index.php" class="btn btn-primary btn-block btn-lg" role="button">Learn more</a></p>
+            </div>
+          </div>
       </div>
       </div>
         <footer>

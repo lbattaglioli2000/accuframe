@@ -28,7 +28,7 @@
     <?php include('../includes/nav.php'); ?>
     <div class="jumbotron">
       <div class="container" style="padding-top: 5%;">
-        <h1>AccuFrame.com Privacy Policy</h1>
+          <h1>AccuFrame.com Privacy Policy</h1>
       </div>
     </div>
     <div class="container">
@@ -119,7 +119,7 @@
           </ul>
           <h3>Contact us</h3>
           <p>If there are any questions regarding this privacy policy, you may contact us using the information below.</p>
-          <p><b>Michael Schettine</b><br>POB 429<br>Delanson, NY 12053<br>United States<br>support@accuframe.com<br>518-852-1736</p>
+          <p><b>Michael Schettine</b><br>POB 429<br>Delanson, NY 12053<br>United States<br><a href="mailto:support@accuframe.com">support@accuframe.com</a><br>518-852-1736</p>
         </div>
       </div>
         <footer>
