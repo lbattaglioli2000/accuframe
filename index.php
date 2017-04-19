@@ -26,15 +26,14 @@
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <!-- Custom styles for this template -->
         <link href="css/main.css" rel="stylesheet">
-        <link rel="shortcut icon" href="../media/img/favicon.ico" type="image/x-icon">
-      </head>
+        <link rel="shortcut icon" href="../media/img/favicon.ico" type="image/x-icon"> </head>
     <style type="text/css">
         .popover-title {
             color: #000000 !important;
             text-decoration-style: wavy;
             /*black color*/
         }
-
+        
         .popover-content {
             color: #000000 !important;
             /*black color*/
@@ -94,14 +93,14 @@
                             <!-- 16:9 aspect ratio -->
                             <div class="embed-responsive embed-responsive-16by9" id="VideoId">
                                 <!-- video added here via JS -->
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" onclick="CloseVideo();" data-dismiss="modal">Close</button>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" onclick="CloseVideo();" data-dismiss="modal">Close</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-          </div>
             <div class="container marketing">
                 <!-- Three columns of text below the carousel -->
                 <div class="row">
@@ -129,8 +128,7 @@
                         </span>
                         <h2>Specifications and Testimonials</h2>
                         <p>"..it appears that the AccuFrame product can provide much of the air leakage control needed for homebuilders…to meet the tough new Air Leakage requirements of the ECCCNYS-2016."
-                            <br><b>Michael DeWein, Strategic Program Director, Leidos</b>
-                      </p>
+                            <br><b>Michael DeWein, Strategic Program Director, Leidos</b> </p>
                         <p><a class="btn btn-default" href="#specs" role="button">View details &raquo;</a></p>
                     </div>
                 </div>
@@ -140,38 +138,25 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h2 style="font-size: 50px;">Energy Performance</h2>
-                        <p class="lead"><i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> is an onsite solution that mitigates air leakage by incorporating a framing gasket into exterior walls resulting in 4-way sealing of lineal gaps that has been shown to reduce air infiltration by more than 75% (ASTM E283).
-
-As of early 2017, nine states (with others to follow soon) require compliance with the IECC 2015 new-housing air leakage standards. This requires that all new homes, when tested at a 50 Pa pressure differential, 'shall not exceed' 5 air changes/hour (ACH) in US climate zones 1 and 2 (warmer areas) and 3 ACH in the remaining cooler zones 3-8. Homes meeting the requirements will receive a “Certificate of Occupancy” which will be necessary for sale of the structure. Because the building must be largely completed before the testing can be performed, builders get one shot at achieving the air leakage standards, if the building doesn’t pass, costly rework and retesting  must be done to insure compliance with code. Rework and retesting can be prohibitively expensive, each test alone can cost up to $500 – nearly twice the average cost per home of <i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i>!</p>
-                        <a href="performance/index.php" class="btn btn-lg btn-primary">Learn more</a>
-                        <br>
+                        <p class="lead"><i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> is an onsite solution that mitigates air leakage by incorporating a framing gasket into exterior walls resulting in 4-way sealing of lineal gaps that has been shown to reduce air infiltration by more than 75% (ASTM E283). As of early 2017, nine states (with others to follow soon) require compliance with the IECC 2015 new-housing air leakage standards. This requires that all new homes, when tested at a 50 Pa pressure differential, 'shall not exceed' 5 air changes/hour (ACH) in US climate zones 1 and 2 (warmer areas) and 3 ACH in the remaining cooler zones 3-8. Homes meeting the requirements will receive a “Certificate of Occupancy” which will be necessary for sale of the structure. Because the building must be largely completed before the testing can be performed, builders get one shot at achieving the air leakage standards, if the building doesn’t pass, costly rework and retesting must be done to insure compliance with code. Rework and retesting can be prohibitively expensive, each test alone can cost up to $500 – nearly twice the average cost per home of <i>The AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i>!</p> <a href="performance/index.php" class="btn btn-lg btn-primary">Learn more</a>
+                        <br> </div>
+                </div>
+                <br>
+                <div class="row" style="padding-top: 4%; padding-left: 15%">
+                    <div class="col-md-4"> <img class="featurette-image img-responsive center-block img-thumbnail" src="/media/img/ryan.jpg">
+                        <br> </div>
+                    <div class="col-md-7">
+                        <blockquote class="blockquote">
+                            <p class="lead" style="font-size: 25px;">Your product offers a solution to a critical air sealing step for all builders. Its benefits are realized almost immediately- through lower heating and cooling costs and even more importantly, a more comfortable home for its occupants.</p>
+                            <footer style="font-size: 15px;">Ryan McCoon at <cite title="Source Title"><a href="http://www.endurahomes.com/" target="_blank">Endura Homes</a></cite></footer>
+                        </blockquote>
                     </div>
-                    </div>
-                    <br>
-                    <div class="row" style="padding-top: 4%; padding-left: 15%">
-                        <div class="col-md-4">
-                            <img class="featurette-image img-responsive center-block img-thumbnail" src="/media/img/ryan.jpg">
-                            <br>
-                        </div>
-                        <div class="col-md-7">
-                            <blockquote class="blockquote">
-                                <p class="lead" style="font-size: 25px;">Your product offers a solution to a critical air sealing step for all builders. Its benefits are realized almost immediately- through lower heating and cooling costs and even more importantly, a more comfortable home for its occupants.</p>
-                                <footer style="font-size: 15px;">Ryan McCoon at <cite title="Source Title"><a href="http://www.endurahomes.com/" target="_blank">Endura Homes</a></cite></footer>
-                            </blockquote>
-                        </div>
-                    </div>
+                </div>
                 <hr class="featurette-divider" id="builders">
                 <div class="row featurette">
                     <div class="col-md-7">
                         <h2 style="font-size: 50px;">Builders</h2>
-                        <p class="lead"><i>AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> helps solve two problems at once! The <i>AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> method
-                        allows builders to optimize scarce framing labor by providing workers with a template for stud placement
-                        that also serves as an air isolation gasket once it's in place. By preprinting framing stud locations on a
-                        pliable gasket substrate that attaches to the wall plates, workers can quickly place and nail the studs to
-                        the plates, integrating the gasket into the frame (<a onclick="OpenVideo();" data-toggle="modal" data-target="#myModal" data-backdrop="static" data-keyboard="false">installation video</a>). When the exterior sheathing is attached to
-                        the completed wall frame, the <i>AccuFrame<sup>&reg;</sup></i> gasket, which runs the length of the wall plate, is compressed
-                        between the plate and the sheathing, automatically forming another air-flow barrier. This 4-way sealing
-                        reduces air intrusion by more than 75% (ASTM E283).</p>
+                        <p class="lead"><i>AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> helps solve two problems at once! The <i>AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> method allows builders to optimize scarce framing labor by providing workers with a template for stud placement that also serves as an air isolation gasket once it's in place. By preprinting framing stud locations on a pliable gasket substrate that attaches to the wall plates, workers can quickly place and nail the studs to the plates, integrating the gasket into the frame (<a onclick="OpenVideo();" data-toggle="modal" data-target="#myModal" data-backdrop="static" data-keyboard="false">installation video</a>). When the exterior sheathing is attached to the completed wall frame, the <i>AccuFrame<sup>&reg;</sup></i> gasket, which runs the length of the wall plate, is compressed between the plate and the sheathing, automatically forming another air-flow barrier. This 4-way sealing reduces air intrusion by more than 75% (ASTM E283).</p>
                         <p><a class="btn btn-lg btn-primary" href="/builders/index.php">Learn more</a> <a type="button" class="btn btn-default btn-lg" onclick="OpenVideo();" data-toggle="modal" data-target="#myModal" data-backdrop="static" data-keyboard="false">Installation Video</a></p>
                     </div>
                     <div class="col-md-5" style="padding-top: 10%;"><img class="featurette-image img-responsive img-thumbnail center-block" src="/media/img/zoom.jpg" alt="Generic placeholder image"> </div>
@@ -183,13 +168,20 @@ As of early 2017, nine states (with others to follow soon) require compliance wi
                         <p class="lead"><i>AccuFrame<sup><small>&reg;</small></sup> Energy Seal</i> is a relatively new product but has undergone a substantial amount of testing in engineering laboratories and recently in a whole house test. Results have been impressive in state agency architectural testing labs and in actual whole house construction testing.</p>
                         <p><a class="btn btn-lg btn-primary" href="/specs/index.php">Learn more</a></p>
                     </div>
-                    <div class="col-md-5">
-                        <img class="featurette-image img-responsive img-thumbnail center-block" src="/media/img/home.jpg" alt="Home construction image">
-                        <br><i style="font-size: 19px;">Habitat for Humanity test home. AccuFrame in action!</i>
-                    </div>
+                    <div class="col-md-5"> <img class="featurette-image img-responsive img-thumbnail center-block" src="/media/img/home.jpg" alt="Home construction image">
+                        <br><i style="font-size: 19px;">Habitat for Humanity test home. AccuFrame in action!</i> </div>
                 </div>
                 <hr class="featurette-divider" id="builders">
                 <?php include("includes/footer.php"); ?>
+                    <script type="text/javascript">
+                        function OpenVideo() {
+                            document.getElementById("VideoId").innerHTML = '<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mt0ry6VQWzE?autoplay=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';;
+                        };
+
+                        function CloseVideo() {
+                            document.getElementById("VideoId").innerHTML = "&nbsp;";
+                        };
+                    </script>
     </body>
 
     </html>
