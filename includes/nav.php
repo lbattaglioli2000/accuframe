@@ -71,7 +71,14 @@
             >
                 <a href="/specs/index.php">Specifications and Testimonials</a>
             </li>
+              <li role="separator" class="divider"></li>
+              <li>
+              <a href="https://medium.com/@michael_99317" target="_blank">Blog</a>
+        </li>
           </ul>
+        </li>
+          <li>
+              <a href="https://medium.com/@michael_99317" target="_blank">Blog</a>
         </li>
         <li
             <?php
